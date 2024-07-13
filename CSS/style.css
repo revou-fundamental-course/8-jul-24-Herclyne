@@ -1,1 +1,64 @@
 /* CSS */
+
+body {
+  /* background-color: aqua; */
+}
+
+.main-title {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+/* Form input kiri */
+.input-data {
+  /* border: 1px solid; */
+  padding: 12px;
+  background-color: beige;
+  padding: 12px;
+  border-radius: 10px;
+}
+form,
+.input-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="number"]:focus {
+  border: 3px solid #555;
+}
+
+/* Button  */
+.button #sumbit {
+  background-color: aquamarine;
+  border: 0px solid;
+  text-align: center;
+  /* height: 40px; */
+}
+
+/*  */
+.main-content {
+  /* border: 1px solid; */
+  flex: 1;
+  padding: 15px;
+}
+.value {
+  text-align: center;
+  border: 0px solid;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 12px;
+}

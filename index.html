@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- Judul-->
+    <header class="main-title">
+      <h1>Kalkulator BMI</h1>
+    </header>
+
+    <main>
+      <!-- Left content -->
+      <section class="main-content">
+        <!--Main Article-->
+        <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, quis. Nemo, suscipit doloribus accusamus aperiam explicabo laudantium necessitatibus. Rem eius ipsa cum earum</article>
+        <br />
+
+        <!--Form Input-->
+        <section>
+          <form class="input-data">
+            <div>
+              <div class="input-title">Jenis Kelamin</div>
+              <input type="radio" id="man" /><label for="man">Laki-laki</label> <input type="radio" id="women" /><label for="women">Perempuan</label>
+            </div>
+
+            <div>
+              <label for="input-bb">Berat Badan (KG)</label>
+              <input type="number" id="input-bb" />
+            </div>
+            <div>
+              <label for="input-u">Usia (Th)</label>
+              <input type="number" id="input-u" />
+            </div>
+            <div>
+              <label for="input-tb">Tinggi Badan (cm)</label>
+              <input type="number" id="input-tb" />
+            </div>
+            <div class="button">
+              <button id="sumbit">Hasil BMI</button>
+              <button>Reset</button>
+            </div>
+          </form>
+        </section>
+
+        <!--Form Article-->
+        <section>
+          <header>
+            <h2>Keunggulan Fitur</h2>
+          </header>
+          <article>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem cupiditate incidunt, natus odit illo obcaecati nulla iste quaerat dolor quo perspiciatis, voluptas, reprehenderit quae non alias quibusdam facere! Ad, vero!
+            </p>
+          </article>
+        </section>
+      </section>
+      <!-- Right Content -->
+      <section class="main-content">
+        <!-- Result -->
+        <article>
+          <header>
+            <h1>Hasil</h1>
+          </header>
+
+          <!-- Tabel Hasil -->
+          <section class="value">
+            <p>Hasil Result adalah</p>
+            <h2>24.7</h2>
+            <p>Anda memiliki berat badan berlebih</p>
+          </section>
+
+          <!-- Article Result -->
+          <article></article>
+
+          <!-- General Information -->
+          <section></section>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
